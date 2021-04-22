@@ -75,4 +75,4 @@ if [ -z "$VERSION" ] ; then
 fi
 
 ( go_build $VERSION ) || ( echo "Failed to build!" 1>&2 && exit 1 )
-( go_mod_download $VERSION ) || (echo "Failed to download!" 1>&2 && exit 1 )
+# ( go_mod_download $VERSION ) || (echo "Failed to download!" 1>&2 && exit 1 )
