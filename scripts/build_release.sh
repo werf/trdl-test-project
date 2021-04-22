@@ -56,9 +56,10 @@ go_build() {
 
             echo "# Building trdl-test-project $VERSION for $os $arch ..."
 
-            GOOS=$os GOARCH=$arch \
-              go build -ldflags="-s -w -X github.com/werf/trdl-test-project/pkg/common.Version=$VERSION" \
-                       -o $outputFile github.com/werf/trdl-test-project/cmd/trdl-test-project
+            echo "$os $arch $VERSION" > $outputFile
+            # GOOS=$os GOARCH=$arch \
+            #   go build -ldflags="-s -w -X github.com/werf/trdl-test-project/pkg/common.Version=$VERSION" \
+            #            -o $outputFile github.com/werf/trdl-test-project/cmd/trdl-test-project
 
             echo "# Built $outputFile"
         done
@@ -73,5 +74,5 @@ if [ -z "$VERSION" ] ; then
     exit 1
 fi
 
-# ( go_build $VERSION ) || ( echo "Failed to build!" 1>&2 && exit 1 )
+( go_build $VERSION ) || ( echo "Failed to build!" 1>&2 && exit 1 )
 ( go_mod_download $VERSION ) || (echo "Failed to download!" 1>&2 && exit 1 )
