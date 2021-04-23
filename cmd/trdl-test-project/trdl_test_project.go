@@ -10,6 +10,7 @@ import (
 
 func main() {
 	fmt.Printf("Hi there! This is trdl-test-project cli tool.\n")
+	fmt.Printf("PRIVET\n")
 	fmt.Printf("Version: %s\n", common.Version)
 
 	snake.NewGame().Start()
