@@ -56,10 +56,10 @@ go_build() {
 
             echo "# Building trdl-test-project $VERSION for $os $arch ..."
 
-            echo "$os $arch $VERSION" > $outputFile
-            # GOOS=$os GOARCH=$arch \
-            #   go build -ldflags="-s -w -X github.com/werf/trdl-test-project/pkg/common.Version=$VERSION" \
-            #            -o $outputFile github.com/werf/trdl-test-project/cmd/trdl-test-project
+            # echo "$os $arch $VERSION" > $outputFile
+            GOOS=$os GOARCH=$arch \
+              go build -ldflags="-s -w -X github.com/werf/trdl-test-project/pkg/common.Version=$VERSION" \
+                       -o $outputFile github.com/werf/trdl-test-project/cmd/trdl-test-project
 
             echo "# Built $outputFile"
         done
