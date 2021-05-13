@@ -1,1 +1,0 @@
-# trdl-test-project
