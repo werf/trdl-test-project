@@ -40,7 +40,6 @@ go_build() {
     VERSION=$1
 
     rm -rf $RELEASE_BUILD_DIR/$VERSION
-    mkdir -p $RELEASE_BUILD_DIR/$VERSION/bin
     chmod -R 0777 $RELEASE_BUILD_DIR/$VERSION
 
     for os in linux darwin windows ; do
@@ -49,7 +48,7 @@ go_build() {
                 continue
             fi
 
-            outputFile=$RELEASE_BUILD_DIR/$VERSION/bin/trdl-test-project-$os-$arch
+            outputFile=$RELEASE_BUILD_DIR/$VERSION/$os-$arch/bin/trdl-test-project
             if [ "$os" == "windows" ] ; then
                 outputFile=$outputFile.exe
             fi
