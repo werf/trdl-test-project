@@ -12,4 +12,6 @@ groups:
     - name: rock-solid
       version: v0.1.11
  - name: v1
-   channels: []
+   channels:
+    - name: alpha
+      version: v0.1.11
