@@ -1,3 +1,3 @@
-docker_image: golang:1.16.4@sha256:9166a0a0bbdd768eea1b71bc62b94101dc2deee5b889e8154c816ca4a25ede72
+docker_image: golang:1.16.4@sha256:8182cdf813a990cafde3fe8f6a860231b02e81a0ff381cab483ec2d287db9487
 commands: 
 - ./scripts/trdl_build.sh {{ .Tag }}
