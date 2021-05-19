@@ -40,6 +40,7 @@ go_build() {
     VERSION=$1
 
     rm -rf $RELEASE_BUILD_DIR/$VERSION
+    mkdir -p $RELEASE_BUILD_DIR/$VERSION
     chmod -R 0777 $RELEASE_BUILD_DIR/$VERSION
 
     for os in linux darwin windows ; do
