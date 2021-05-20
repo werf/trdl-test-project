@@ -20,7 +20,7 @@ go_mod_download() {
             n=0
             until [ $n -gt 5 ]
             do
-                ( GOPATH=$(pwd)/$RELEASE_BUILD_DIR/$VERSION/mod GOOS=$os GOARCH=$arch go mod download ) && break || true
+                ( GOPATH=$(pwd)/$RELEASE_BUILD_DIR/$VERSION/$os-$arch/mod GOOS=$os GOARCH=$arch go mod download ) && break || true
                 n=$[$n+1]
 
                 if [ ! $n -gt 5 ] ; then
