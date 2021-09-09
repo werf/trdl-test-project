@@ -16,5 +16,5 @@ groups:
    channels:
     - name: alpha
       version: 0.1.15
-    - name: aalpha
+    - name: alpha
       version: 3.2.2
