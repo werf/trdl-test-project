@@ -3,18 +3,18 @@ groups:
  - name: v0
    channels:
     - name: alpha
-      version: v0.1.21
+      version: 0.1.21
     - name: beta
-      version: v0.1.15
+      version: 0.1.15
     - name: ea
-      version: v0.1.15
+      version: 0.1.15
     - name: stable
-      version: v0.1.15
+      version: 0.1.15
     - name: rock-solid
-      version: v0.1.15
+      version: 0.1.15
  - name: v1
    channels:
     - name: alpha
-      version: v0.1.15
+      version: 0.1.15
     - name: aalpha
-      version: asldkfjaslfdkjv3.2.2
+      version: 3.2.2.1.2.3
