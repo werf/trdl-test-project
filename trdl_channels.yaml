@@ -18,9 +18,3 @@ groups:
       version: 0.1.15
     - name: alpha
       version: 3.2.2
- - name: v0
-   channels:
-    - name: alpha
-      version: 0.1.15
-    - name: beta
-      version: 4.3.2
