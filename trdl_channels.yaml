@@ -17,4 +17,4 @@ groups:
     - name: alpha
       version: 0.1.15
     - name: aalpha
-      version: 3.2.2.1.2.3
+      version: 3.2.2
