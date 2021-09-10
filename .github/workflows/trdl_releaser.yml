@@ -1,0 +1,16 @@
+name: Trdl releaser
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  release:
+    name: Perform release using trdl server
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: werf/release-please-action@main
+      id: release
+      with:
+        release-type: simple
