@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/werf/trdl-test-project/compare/v0.3.0...v0.4.0) (2021-09-10)
+
+
+### Features
+
+* test feat n3 ([739a136](https://www.github.com/werf/trdl-test-project/commit/739a136c94cc76ba3e8eafa123d2ea81d268ed6b))
+
 ## [0.3.0](https://www.github.com/werf/trdl-test-project/compare/v0.2.0...v0.3.0) (2021-09-10)
 
 
