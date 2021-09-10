@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.2](https://www.github.com/werf/trdl-test-project/compare/v3.2.1...v3.2.2) (2021-09-10)
+
+
+### Bug Fixes
+
+* fix test ([f577c3e](https://www.github.com/werf/trdl-test-project/commit/f577c3e77094e3799046672b3dffc7b267084140))
+
 ### [3.2.1](https://www.github.com/werf/trdl-test-project/compare/v3.2.0...v3.2.1) (2021-09-10)
 
 
