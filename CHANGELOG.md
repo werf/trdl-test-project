@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.1](https://www.github.com/werf/trdl-test-project/compare/v0.5.0...v0.5.1) (2021-09-10)
+
+
+### Bug Fixes
+
+* test fix n1 ([8bbd7bb](https://www.github.com/werf/trdl-test-project/commit/8bbd7bb0ac351a6db1f6435b722ca451f8566461))
+
 ## [0.5.0](https://www.github.com/werf/trdl-test-project/compare/v0.4.0...v0.5.0) (2021-09-10)
 
 
