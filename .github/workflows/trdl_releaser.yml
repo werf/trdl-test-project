@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - uses: werf/release-please-action@main
+    - uses: werf/release-please-action@v99.0.0
       id: release
       with:
         release-type: simple
