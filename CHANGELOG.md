@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://www.github.com/werf/trdl-test-project/compare/v0.5.1...v1.0.0) (2021-09-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* test feat n7
+
+### Features
+
+* test feat n7 ([5f19659](https://www.github.com/werf/trdl-test-project/commit/5f196599bbfcdd1f3237a7728a00ad751584db4f))
+
 ### [0.5.1](https://www.github.com/werf/trdl-test-project/compare/v0.5.0...v0.5.1) (2021-09-10)
 
 
