@@ -1,0 +1,8 @@
+docker_image: golang:1.16.4@sha256:f7a5c5872d4bb68e152be72e4a4bf9a142a47ec2dcbb4074798d4feb6197abd7
+commands:
+- echo "#!/bin/bash" > /tmp/script.sh
+- echo "echo HELLO" >> /tmp/script.sh
+- chmod +x /tmp/script.sh
+- mkdir /result/bin
+- cp /tmp/script.sh /result/bin/script.sh
+
