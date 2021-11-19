@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.5](https://www.github.com/werf/trdl-test-project/compare/v3.2.4...v3.2.5) (2021-11-19)
+
+
+### Bug Fixes
+
+* p2/trdl fixes ([2708f56](https://www.github.com/werf/trdl-test-project/commit/2708f56062ff93b86c5d57987d2ca5f84a47f60c))
+
 ### [3.2.4](https://www.github.com/werf/trdl-test-project/compare/v3.2.3...v3.2.4) (2021-11-19)
 
 
