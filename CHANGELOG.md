@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.2.4](https://www.github.com/werf/trdl-test-project/compare/v3.2.3...v3.2.4) (2021-11-19)
+
+
+### Bug Fixes
+
+* p2/trdl.yaml error fix ([96077d2](https://www.github.com/werf/trdl-test-project/commit/96077d26c1686735e796ddfdf7e7b792ce18555c))
+* up p2/trdl_channels.yaml ([b0c8d11](https://www.github.com/werf/trdl-test-project/commit/b0c8d11721f344f1228baa7a93fe8afa1f444f7e))
+
 ### [3.2.3](https://www.github.com/werf/trdl-test-project/compare/v3.2.2...v3.2.3) (2021-11-19)
 
 
