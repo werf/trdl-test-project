@@ -3,6 +3,6 @@ commands:
 - echo "#!/bin/bash" > /tmp/script.sh
 - echo "echo HELLO" >> /tmp/script.sh
 - chmod +x /tmp/script.sh
-- mkdir /result/bin
-- cp /tmp/script.sh /result/bin/script.sh
+- mkdir /result/bin/any-any
+- cp /tmp/script.sh /result/bin/any-any/script.sh
 
