@@ -1,0 +1,19 @@
+groups:
+ - name: v0
+   channels:
+    - name: alpha
+      version: 0.1.21
+    - name: beta
+      version: 0.1.15
+    - name: ea
+      version: 0.1.15
+    - name: stable
+      version: 0.1.15
+    - name: rock-solid
+      version: 0.1.15
+ - name: v1
+   channels:
+    - name: alpha
+      version: 0.1.15
+    - name: beta
+      version: 0.1.21
